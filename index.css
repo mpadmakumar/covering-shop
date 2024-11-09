@@ -418,7 +418,7 @@ a{
 }
 #product-section .images img{
    
-    width: 165px;
+    width: 170px;
     height: 165px;
 }
 
@@ -452,25 +452,25 @@ a{
 #contact-section .contact{
 
     height: 530px;
-    width: 380px;
+    width: 360px;
     padding-top: 10px;
-    margin-left: 10px;
+    margin-left: 0px;
 }
 #contact-section .contact .sl,.call,.oh{
     margin-top: 10px;
     margin-bottom: 0px;
     margin-left: 8px;
     height: 160px;
-    width: 350px;
+    width: 330px;
 }
 #contact-section .contact-form{
     height: 510px;
-    width: 380px;
-    margin-left: 10px;
+    width: 360px;
+    margin-left: 0px;
 }
 #form input{
     height: 35px;
-    width: 320px;
+    width: 300px;
     margin: 10px;
     margin-left: 0px;
 }
