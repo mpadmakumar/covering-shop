@@ -412,9 +412,9 @@ a{
     display: flex;
 }
 #product-section .images{
-    margin-left: 10px;
-    width: 180px;
-    height: 290px;
+    margin-left: 0px;
+    width: 175px;
+    height: 300px;
 }
 #product-section .images img{
    
@@ -465,7 +465,7 @@ a{
 }
 #contact-section .contact-form{
     height: 510px;
-    width: 390px;
+    width: 380px;
     margin-left: 10px;
 }
 #form input{
