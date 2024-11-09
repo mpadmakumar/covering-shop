@@ -1,0 +1,519 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color:gold;
+    position: fixed;
+    z-index: 1;
+    
+}
+#nav h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#nav span{
+    color: white;
+}
+#nav #ul{
+    margin-right: 20px;
+}
+#nav #ul,li{
+    display: flex;
+    column-gap: 20px;
+    color: white;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.sidebar {
+    font-size: 25px;
+    margin-right: 20px;
+    color: white;
+    display: none;
+}
+
+#sidenav{
+    position:fixed;
+    height:400px;
+    width: 250px;
+    transition: 1s;
+    z-index: 1;
+    background-color:black;
+    top: 70px;   
+    left:-400px ;
+    border-radius: 5px;
+}
+#sidenav i{
+     color:gold;
+     font-size: 25px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     margin-left: 220px;
+}
+#sidenav #ul{
+     margin-left: 15px;
+     margin-top: 20px;
+     margin-right: 10px;
+     row-gap: 40px;
+}
+#sidenav #ul li:hover{
+    color: gold;
+    text-decoration: underline;
+}
+
+#home-page{
+    display: flex;
+    background-image: url(./h-2.jpeg);
+    background-size: cover;
+    height: 610px;
+    justify-content: flex-start;
+}
+
+#home-page .text h1{
+     
+       margin-left: 40px;
+       margin-top: 200px;
+       color:gold;
+       font-size: 55px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text p{
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+    color:white;
+    margin-top: 20px;
+}
+.text button{
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    border:2px solid cyan;
+    color:white;
+    border-radius: 5px;
+}
+
+#about{
+    margin-top: 10px;
+
+}
+#about h1{
+    text-align: center;
+   font-size: 35px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color:white;
+   background-color: black;
+   margin-top: 0px;
+}
+#about span{
+   color: gold;
+   font-size: 30px;
+}
+
+
+#about-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+#about-section .image{
+    margin: 20px;
+    
+}
+#about-section .about{
+
+    margin-left: 45px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 50px;
+    margin-top: 60px;
+}
+
+#product h1{
+     text-align: center;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    background-color: black;
+    margin-top: 0px;
+}
+#product span{
+    color: gold;
+    font-size: 30px;
+}
+
+#product-section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+#product-section .images{
+    height: 300px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.images h3{
+    font-size: 25px;
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.images p{
+    font-size: 16px;
+}
+.images em{
+    font-size: 18px;
+}
+.images del{
+    color: #8f8f8f;
+}
+
+#contact h1{
+    text-align: center;
+   font-size: 35px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color:white;
+   background-color: black;
+   margin-top: 0px;
+}
+#contact span{
+   color: gold;
+   font-size: 30px;
+}
+
+#contact-section{
+    display:flex ;
+    justify-content: space-around;
+}
+
+#contact-section .contact{
+
+    height: 530px;
+    width: 450px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #202020;
+    color: aliceblue;
+    border-radius: 5px;
+
+}
+#contact-section .contact .sl,.call,.oh{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    height: 160px;
+    width: 420px;
+    border:1px solid gold ;
+    border-radius: 5px;
+}
+.contact h2{
+    margin: 10px;
+    margin-left: 30px;
+}
+.contact p{
+    margin-left: 30px;
+    color: gray;
+}
+.contact .sl,.call,.oh{
+    background-color: #111010;
+}
+
+#contact-section .contact-form{
+    height: 530px;
+    width: 490px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.contact-form h2{
+    margin: 20px;
+  
+}
+.contact-form #form{
+    margin-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#form label{
+    font-size: 23px;
+   
+}
+#form i{
+    color:red;
+}
+#form input{
+    height: 40px;
+    width: 400px;
+    margin: 10px;
+    margin-left: 0px;
+    font-size: 20px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: #f1f0f0;
+}
+#form input:focus{
+    visibility: none;
+}
+#form button{
+
+    height: 35px;
+    width: 130px;
+    border: 1px solid black;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: gold;
+}
+
+.footer{
+    background-color: black;
+}
+#footer{
+    color: white;
+    display: flex;
+    margin-bottom: 0px;
+    justify-content:space-between;
+}
+#footer .about i{
+    margin-top: 20px;
+    font-size: 23px;
+    padding-left: 15px;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.about i:hover{
+    color: gold;
+    transform: scale(1.4);
+}
+#footer h2{
+    font-size: 30px;
+    margin-top: 20px;
+    
+}
+#footer span{
+    color:gold;
+}
+
+.contact b{
+    color: chartreuse;
+}
+#footer p{
+    margin-top: 20px;
+    font-family:'Trebuchet MS';
+    color:wheat;
+}
+#footer #hover p:hover{
+   
+    color:gold;
+    text-decoration: underline;
+}
+.footer-last{
+    color: wheat;
+    height: 90px;
+}
+.footer-last {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.footer-last em,i{
+    color:white ;
+    font-size: 20px;
+    margin-left: 00px;
+}
+.footer-last i{
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+}
+.footer-last .em{
+    margin-left: 400px;
+    font-size: 23px;
+}
+.footer-last hr{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    color:gray;
+}
+.footer-last span{
+    color: gold;
+    font-size: 25px;
+}
+#image-section{
+    margin-top: 20px;
+}
+
+
+/*------------------------Meadia screen-----------*/
+@media screen and (max-width:700px){
+
+    #nav h2{
+        font-size: 20px;
+    }
+     #nav #ul{
+        display: none;
+     }
+
+     .sidebar {
+        display: block;
+     }
+
+     #home-page{
+
+        background-image: url(./h-2.jpeg);
+        background-size: cover;
+        height: 520px;
+     }
+     #home-page .text h1{
+          font-size: 38px;
+          margin-top: 200px;
+          margin-left: 10px;
+          color:gold;
+     }
+     #home-page .text p{
+        font-size: 20px;
+        margin-left: 10px;
+        color:white;
+   }
+   .text button{
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+}
+
+#product-section{
+    justify-content:space-evenly;  
+    display: flex;
+}
+#product-section .images{
+    margin-left: 10px;
+    width: 180px;
+    height: 290px;
+}
+#product-section .images img{
+   
+    width: 180px;
+    height: 180px;
+}
+
+#about-section {
+    display: block;
+    justify-content: space-around;
+}
+#about-section .image {
+    margin: 0px;
+    margin-top: 10px;
+
+}
+#about-section .image img {
+    height: 300px;
+    width: 350px;
+}
+#about-section .about{
+
+    margin-left: 30px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+#about-section .about .p{
+    display: none;
+}
+
+#contact-section{
+    display:block ;
+    
+}
+#contact-section .contact{
+
+    height: 530px;
+    width: 380px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+#contact-section .contact .sl,.call,.oh{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    height: 160px;
+    width: 350px;
+}
+#contact-section .contact-form{
+    height: 510px;
+    width: 390px;
+    margin-left: 10px;
+}
+#form input{
+    height: 35px;
+    width: 320px;
+    margin: 10px;
+    margin-left: 0px;
+}
+#form button{
+
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+
+}
+
+
+#footer{
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#footer h2{
+    font-size: 30px;
+}
+.footer-last em{
+     font-size:16px ;
+     text-align: center;
+}
+.footer-last span{
+    color: gold;
+    font-size: 18px;
+}
+.footer-last i{
+    margin-left: 10px;
+    font-size: 18px;
+    color: white;
+    margin-left: 0px;
+}
+.footer-last .em{
+    margin-left: 50px;
+    text-align: center;
+    font-size:25px ;
+    margin-top:20px;
+    
+}
+.footer-last .em span{
+    font-size: 28px;
+}
+
+}
